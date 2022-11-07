@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wanna Call?</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+  
+<body>
+<div class="container2">
+
+  <header2><h1>Just A Call Away!</h1><a href="index.html"><p>Home</p></a></header2>
+
+  <div class="card">
+    <img ID="call" src="images/card.jpg" alt="Saul Goodman is the main character from better call Saul">
+  </div>
+      
+
+  <form ID="survey-form">
+    <fieldset>
+      <label ID="label" for="name">Name<input id="name" type="text" required placeholder="Enter your name"/></label>
+
+      <label ID="label" for="email">Email<input id="email" type="email" required placeholder="Enter your email"/></label>
+      
+      <h3>Are you in debt?</h3>
+      <label for="y/n">
+        <input id="yes" type="radio" name="y/n" class="inline" value="yes or no" /> Yes
+      </label>
+      <label for="y/n">
+        <input id="no" type="radio" name="y/n" class="inline" value="yes or no" /> No
+      </label>
+      
+      <h3>Does your situation include the following?</h3>
+      <label for="situation">
+        <input id="situation" type="checkbox" value="trouble" name="terms-and-conditions" class="inline"/> Felonies
+      </label>
+      <label for="crime">
+        <input id="crime" type="checkbox" value="trouble" name="crime" class="inline"/> Misdemeanors
+      </label>
+      <label for="crime">
+        <input id="crime" type="checkbox" value="trouble" name="crime" class="inline"/> Inchoate Offenses
+      </label>
+      <label for="crime">
+        <input id="crime" type="checkbox" value="trouble" name="crime" class="inline"/> Strict Liability Offenses
+      </label>
+      <label for="crime">
+        <input id="crime" type="checkbox" value="trouble" name="crime" class="inline"/> Other
+      </label>
+      <label for="other">Anything else I should know?
+        <textarea id="option" name="other" rows="3" cols="30" placeholder="I don't like..."></textarea>
+      </label>
+      
+    </fieldset>
+    
+    <input type="submit" value="Submit" ID="submit" />
+    
+  </form>
+</div>
+</body>
+</html>
